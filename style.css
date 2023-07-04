@@ -21,7 +21,7 @@ body {
 
 .button__nav, button {
     border: 2px;
-    margin: 1em 1em 1em 10%;
+    margin: 1em 0 10px 8%;
     background-color: transparent;
     cursor: pointer;
     
@@ -32,8 +32,8 @@ body {
     list-style-type: none;
 	position: absolute;
 	right: 0;
-    width: 86vh;
-    margin-top: 2em;
+    width: 82vh;
+    margin-top: 1.6em;
 }
 
 .nav__item, a {
@@ -46,26 +46,26 @@ body {
 .img__perfil {
     position: absolute;
 	right: 0;
-    width: 45px;
+    width: 46px;
     border-radius: 3em;
-    margin: 1em 25% 0 0;
+    margin: 0.8em 14% 0 0;
 }
 
 .nome {
     position: absolute;
 	right: 0;
-    margin: 2.1em 21% 1em 0; 
+    margin: 1.8em 8% 0 0; 
 }
 
 .dashboard {
     background-color: #277AE1;
-    height: 7vh;
+    height: 10vh;
 }
 
 .titulo__dashboard {
     color: white;
     font-weight: 800;
-    margin-left: 19%;
+    margin-left: 5%;
     padding: 0.9em 0 0 0;
     font-size: 21px;
 }
@@ -75,25 +75,27 @@ body {
 .titulo__primario {
     font-weight: 600;
     color: #6b6b6b;
-    margin: 1em 0 0.8em 18.8%;
+    margin: 2em 0 0.8em 6%;
     font-size: 22px;
 }
 
 .container__cursos {
     background-color: #FFFFFF;
-    width: 58vh;
-    height: 23vh;
-    margin-left: 19%;
+    width: 87vh;
+    height: 35vh;
+    margin-left: 6%;
     border: solid 0.1px;
     border-color: #e0dfdf;
+    transition: all 0.2s;
 }
 
 .progressao__curso {
-    padding: 0.8em 0 0 0.3em;
+    padding: 0.8em 0 0 1em;
+    margin-bottom: 0.5em;
 }
 
 .logo__curso {
-    margin: 0 0 0 1em;
+    margin: 0 0 0 1.5em;
     float: left;
 }
 
@@ -104,5 +106,22 @@ body {
 }
 
 .texto__curso {
-    margin-top: 3em;
+    margin: 3em 0 0 2.5em;
+    font: 300;
+    font-size: 12px;
+    color: #555555;
+} 
+
+.button_curso, button {
+    background-color: transparent;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.button_curso, .button_curso1, img {
+    border-radius: 4px;
+}
+
+.container__cursos:hover {
+    margin-top: 20px;
 }
